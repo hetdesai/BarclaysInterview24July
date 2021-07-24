@@ -1,0 +1,7 @@
+C:\Users\Het_Desai\Source\Repos\DeveloperInterviewExercise\ThirdPartyTools\bin\Debug\ThirdPartyTools.dll.config
+C:\Users\Het_Desai\Source\Repos\DeveloperInterviewExercise\ThirdPartyTools\bin\Debug\ThirdPartyTools.dll
+C:\Users\Het_Desai\Source\Repos\DeveloperInterviewExercise\ThirdPartyTools\bin\Debug\ThirdPartyTools.pdb
+C:\Users\Het_Desai\Source\Repos\DeveloperInterviewExercise\ThirdPartyTools\obj\Debug\ThirdPartyTools.csproj.AssemblyReference.cache
+C:\Users\Het_Desai\Source\Repos\DeveloperInterviewExercise\ThirdPartyTools\obj\Debug\ThirdPartyTools.csproj.CoreCompileInputs.cache
+C:\Users\Het_Desai\Source\Repos\DeveloperInterviewExercise\ThirdPartyTools\obj\Debug\ThirdPartyTools.dll
+C:\Users\Het_Desai\Source\Repos\DeveloperInterviewExercise\ThirdPartyTools\obj\Debug\ThirdPartyTools.pdb
