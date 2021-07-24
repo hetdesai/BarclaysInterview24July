@@ -27,8 +27,7 @@ namespace FileData.BL
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Something went wrong. Please contact system administrator");
-                System.IO.File.AppendAllText("error.txt", DateTime.Now.ToString("dd/MM/yyyy") + " Method: CheckVersionPrototype()  -" + ex.ToString() + "\n");
+               ErrorHandler.ErrorHandler.LogError("CheckVersionPrototype", ex);
             }
         }
     }
