@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ThirdPartyTools;
-
+using System.Configuration;
 namespace FileData.BL
 {
     public class ValidateArgument
@@ -14,8 +14,9 @@ namespace FileData.BL
             try
 
             {
-                List<string> versionArgumentList = new List<string> { "-v", "--v", "/v", "--version" };
-                List<string> sizeArgumentList = new List<string> { "-s", "--s", "/s", "--size" };
+                //reading from config file so that it will become easy to add/remove any option
+                List<string> versionArgumentList = ConfigurationManager.AppSettings["version"].Split(',').ToList();
+                List<string> sizeArgumentList = ConfigurationManager.AppSettings["size"].Split(',').ToList();
                 string argument = args[0];
                 argument = argument.Trim().ToLower();
                 if (args.Length == 2)
